@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule ^(.*)$ %{ENV:BASE}index.php [QSA,L]
+=======
+RewriteEngine On 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteRule ^(.*)$ %{ENV:BASE}index.php [QSA,L]
+>>>>>>> 6f819c97090a1cceb124c31c196c8e538e883eaf
